@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f5">
+  <title>เค้ามีไรจะบอกเบ้บบู้ 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="phone">
+    <div class="sparkle-bg" aria-hidden="true"></div>
+
+    <section class="scan-page" id="scanPage">
+      <div class="top-sticker" aria-hidden="true">૮ ˶ᵔ ᵕ ᵔ˶ ა</div>
+      <p class="eyebrow">มีคำถามสำคัญอยากถาม...</p>
+      <h1>วางนิ้วเพื่อปลดล็อก<br>ความลับของหัวใจ</h1>
+      <p class="scan-instruction" id="hint">แตะค้างที่หัวใจเพื่อเริ่มสแกน 💓</p>
+
+      <button class="scanner" id="scanner" type="button" aria-label="แตะค้างเพื่อสแกนหัวใจ">
+        <span class="scan-orbit" aria-hidden="true"></span>
+        <span class="scan-glow" aria-hidden="true"></span>
+        <span class="scanner-heart" aria-hidden="true">♥</span>
+        <span class="scan-progress" id="progressLabel">แตะค้าง</span>
+      </button>
+
+      <p class="scan-footnote">สแกนความรู้สึกด้วยปลายนิ้วของเธอ ♡</p>
+    </section>
+
+    <section class="transition hidden" id="heartTransition" aria-live="polite">
+      <div class="transition-title">กำลังรวบรวมความกล้า... 💞</div>
+      <div class="orbit" aria-hidden="true">
+        <span>♥</span><span>♡</span><span>♥</span><span>♡</span>
+        <span>♥</span><span>♡</span><span>♥</span><span>♡</span>
+      </div>
+      <div class="orbit-center" aria-hidden="true">♥</div>
+    </section>
+
+    <section class="question-page hidden" id="questionPage">
+      <div class="question-sticker" aria-hidden="true">ʕ♡˙ᴥ˙♡ʔ</div>
+      <p class="eyebrow">เปิดใจให้เราหน่อยนะ</p>
+      <h2 id="questionText">เป็นแฟนกันมั้ยเบ้บบู้</h2>
+      <p class="question-subtitle">มีคำตอบที่อยากได้อยู่ในใจแล้วนะ 💌</p>
+
+      <div class="answer-area" id="answerArea">
+        <button class="answer-button yes-button" id="yesButton" type="button">เป็น 💗</button>
+        <button class="answer-button no-button" id="noButton" type="button">ไม่เป็น</button>
+      </div>
+      <p class="tiny-note" id="tinyNote">เลือกคำตอบจากหัวใจได้เลย ✨</p>
+    </section>
+
+    <section class="yes-page hidden" id="yesPage" aria-live="polite">
+      <div class="yes-sticker" aria-hidden="true">( ˶˘ ³˘(ˊᗜˋ*)♡</div>
+      <p class="eyebrow">หัวใจได้รับคำตอบแล้ว</p>
+      <h2>เราเป็นแฟนกันแล้วนะเบ้บบู้</h2>
+      <p class="yes-note">ขอบคุณที่เลือกจับมือกันนะ<br>จากนี้ขอมีเธออยู่ในทุกวันเลย 💖</p>
+      <div class="celebration-heart" aria-hidden="true">💗</div>
+      <button class="again-button" id="againButton" type="button">ดูเซอร์ไพรส์อีกครั้ง ♡</button>
+    </section>
+
+    <div class="heart-rain" id="heartRain" aria-hidden="true"></div>
+    <div class="screen-flash" id="screenFlash" aria-hidden="true"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
